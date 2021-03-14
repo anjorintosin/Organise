@@ -83,7 +83,12 @@ header {
   left:20px;
 }
 
-#cal-wrap { max-width: 600px; }
+#cal-wrap { 
+  max-width: 600px; 
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:155px;
+}
 
 
 #cal-date { display: flex; }
@@ -93,9 +98,10 @@ header {
   font-size: 1.2em;
   border: 0;
   color: #fff;
+  margin-bottom:20px;
 }
 #cal-mth, #cal-yr { background: #ea4c4c; }
-#cal-set { background: #4e83d9; }
+#cal-set { background: #ED7D31; }
 
 
 #calendar {

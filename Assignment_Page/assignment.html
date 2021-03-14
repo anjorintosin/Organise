@@ -15,7 +15,9 @@
   </head>
 
   <header>
-    <img src="/images/logo.png" alt="logo" height="40" class="logo" href="/Landing_page/index.html">
+    <a href="/Landing_page/index.html">
+    <img src="/images/logo.png" alt="logo" height="40" class="logo">
+  </a>
 
     <!-- <div class="menubar">
       <a href="/Landing_page/index.html" class="menu_options">Home</a>
@@ -73,13 +75,13 @@
                   aria-label="new task name"
                 />
                 <button class="btn create" aria-label="create new task">+</button>
+                <div class="delete-stuff">
+                  <button class="btn delete" data-clear-complete-tasks-button>Clear completed Assignment</button>
+                  <button class="btn delete" data-delete-list-button>Delete list</button>
+                </div>
               </form>
         </div>
 
-        <div class="delete-stuff">
-          <button class="btn delete" data-clear-complete-tasks-button>Clear completed Assignment</button>
-          <button class="btn delete" data-delete-list-button>Delete list</button>
-        </div>
       </div>
     </div>
 

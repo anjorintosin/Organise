@@ -184,7 +184,7 @@ form {
 .todo-body {
   padding: var(--spacer);
   position: relative;
-  height:300px;
+ 
 }
 
 .new-task-creator .create {
@@ -285,7 +285,7 @@ form {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom:-10px;
+  bottom:-35px;
   color: var(--clr-light);
   padding-bottom:20px;
 }
