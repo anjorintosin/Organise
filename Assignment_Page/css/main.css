@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 :root {
   --clr-primary: rgb(148, 0, 211);
   --clr-light: #f4f4f4;
@@ -102,9 +104,9 @@ form {
   transition: border-bottom 150ms ease-in;
   order: 2;
 }
-
 .new::-webkit-input-placeholder {
   opacity: 0.4;
+  color:#e4e4e4;
 }
 
 .new:-ms-input-placeholder {
@@ -147,6 +149,10 @@ form {
   margin-bottom: 0;
 }
 
+.new.task::placeholder{
+  color:black;
+}
+
 .active-list {
   font-weight: 700;
 }
@@ -160,7 +166,7 @@ form {
 
 .todo-header {
   padding: var(--spacer);
-  background: #e4e4e4;
+  background: #ED7D31;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -178,10 +184,12 @@ form {
 .todo-body {
   padding: var(--spacer);
   position: relative;
+  height:300px;
 }
 
 .new-task-creator .create {
   color: var(--clr-primary);
+  color:#ED7D31;
 }
 
 [type="checkbox"] {
@@ -193,6 +201,7 @@ form {
   display: flex-inline;
   align-items: center;
   position: relative;
+  color:#ED7D31;
 }
 
 .task {
@@ -209,6 +218,7 @@ form {
   height: 1px;
   background: currentColor;
   opacity: 0.1;
+  
 }
 
 .custom-checkbox {
@@ -275,11 +285,10 @@ form {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: -35px;
+  bottom:-10px;
   color: var(--clr-light);
+  padding-bottom:20px;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   text-decoration: none;
