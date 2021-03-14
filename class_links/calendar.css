@@ -164,6 +164,7 @@ header {
   margin: 10px 0;
   border: 1px solid #ddd;
   resize: none;
+  color:black;
 }
 #cal-event input[type=button], #cal-event input[type=submit] {
   padding: 10px;

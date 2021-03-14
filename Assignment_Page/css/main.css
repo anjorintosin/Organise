@@ -83,10 +83,11 @@ form {
 }
 
 .btn.delete {
+  margin-top:0px;
   opacity: 0.7;
   font-size: 1rem;
   transition: color 200ms;
-  color: #333;
+  color: white;
 }
 
 .btn.delete:hover {
